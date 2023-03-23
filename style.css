@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  /* header */
+  .header {
+    min-width: 920px;
+    height: 235px;
+    background-color: #9292921f;
+  }
+  
+  .header-title {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .input1 {
+    margin-right: 80px;
+    position: absolute;
+    width: 354px;
+    height: 47px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 2px solid #e4e4e4;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+  }
+  
+  .input1::placeholder {
+    color: #655252;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .button-add {
+    font-weight: normal;
+    position: absolute;
+    min-width: 95px;
+    height: 49px;
+    background: #EF0F0F;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 340px;
+    margin-top: -1px;
+    outline: none;
+    border: none;
+    /* border: 2px solid #c50202; */
+  }
+  
+  input[type="button"] {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    line-height: 21px;
+    font-size: 16px;
+  }
+  
+  .button-add:hover {
+    cursor: pointer;
+  }
+  
+  /* main */
+  .main {
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  li {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    min-width: 343px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    left: 5%;
+    overflow-wrap: break-word;
+  }
+  
+  .list-after-click{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    min-width: 343px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    left: 5%;
+    overflow-wrap: break-word;
+    text-decoration: line-through rgb(0, 0, 0);
+    color: #5a5a5a;
+  }
+  
+  button {
+    margin-left: 5px;
+  }
+  
+  .delete-btn {
+    width: 24px;
+    height: 24px;
+    background-image: url(img/X-red.svg);
+  }
+  
+  .complete-btn {
+    width: 24px;
+    height: 24px;
+    background-image: url(img/check.svg);
+    margin-right: 17px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+  }
+
+  .complete-btn-click {
+    width: 24px;
+    height: 24px;
+    background-image: url(img/check-opacity.svg);
+    margin-right: 17px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+  }
+
+  /*footer*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #9292921f;
+    text-align: center;
+    min-height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 9999;
+  }
+  
+  .footer-content {
+    min-width: 222px;
+    height: 39px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+  }
